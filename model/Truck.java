@@ -5,7 +5,7 @@ public class Truck implements Runnable {
   int capacity;
   Elevator[] elevators;
 
-  public Truck(int nRaces, int capacity, Elevator... elevators) {
+  public Truck(int nRaces, int capacity, Elevator ...elevators) {
     this.nRaces = nRaces;
     this.capacity = capacity;
     this.elevators = elevators;
